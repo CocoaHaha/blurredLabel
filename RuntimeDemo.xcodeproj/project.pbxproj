@@ -15,6 +15,8 @@
 		E42EC6201EEA84EC008409D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42EC61E1EEA84EC008409D7 /* LaunchScreen.storyboard */; };
 		E42EC62B1EEA84EC008409D7 /* RuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42EC62A1EEA84EC008409D7 /* RuntimeDemoTests.m */; };
 		E42EC6361EEA84EC008409D7 /* RuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42EC6351EEA84EC008409D7 /* RuntimeDemoUITests.m */; };
+		E42EC6451EEA859B008409D7 /* BDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E42EC6441EEA859B008409D7 /* BDPerson.m */; };
+		E46D0A4D1EF0F176003A9CD8 /* BDPerson+PersonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E46D0A4C1EF0F176003A9CD8 /* BDPerson+PersonCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E42EC6311EEA84EC008409D7 /* RuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42EC6351EEA84EC008409D7 /* RuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoUITests.m; sourceTree = "<group>"; };
 		E42EC6371EEA84EC008409D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42EC6431EEA859B008409D7 /* BDPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPerson.h; sourceTree = "<group>"; };
+		E42EC6441EEA859B008409D7 /* BDPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPerson.m; sourceTree = "<group>"; };
+		E46D0A4B1EF0F176003A9CD8 /* BDPerson+PersonCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BDPerson+PersonCategory.h"; sourceTree = "<group>"; };
+		E46D0A4C1EF0F176003A9CD8 /* BDPerson+PersonCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BDPerson+PersonCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				E42EC6141EEA84EC008409D7 /* AppDelegate.m */,
 				E42EC6161EEA84EC008409D7 /* ViewController.h */,
 				E42EC6171EEA84EC008409D7 /* ViewController.m */,
+				E42EC6431EEA859B008409D7 /* BDPerson.h */,
+				E42EC6441EEA859B008409D7 /* BDPerson.m */,
+				E46D0A4B1EF0F176003A9CD8 /* BDPerson+PersonCategory.h */,
+				E46D0A4C1EF0F176003A9CD8 /* BDPerson+PersonCategory.m */,
 				E42EC6191EEA84EC008409D7 /* Main.storyboard */,
 				E42EC61C1EEA84EC008409D7 /* Assets.xcassets */,
 				E42EC61E1EEA84EC008409D7 /* LaunchScreen.storyboard */,
@@ -278,7 +288,9 @@
 			files = (
 				E42EC6181EEA84EC008409D7 /* ViewController.m in Sources */,
 				E42EC6151EEA84EC008409D7 /* AppDelegate.m in Sources */,
+				E42EC6451EEA859B008409D7 /* BDPerson.m in Sources */,
 				E42EC6121EEA84EC008409D7 /* main.m in Sources */,
+				E46D0A4D1EF0F176003A9CD8 /* BDPerson+PersonCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +530,7 @@
 				E42EC63C1EEA84EC008409D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E42EC63D1EEA84EC008409D7 /* Build configuration list for PBXNativeTarget "RuntimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				E42EC63F1EEA84EC008409D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E42EC6401EEA84EC008409D7 /* Build configuration list for PBXNativeTarget "RuntimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				E42EC6421EEA84EC008409D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

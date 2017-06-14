@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface BDPerson : NSObject
+{
+    NSString *name;
+}
+//@property (nonatomic,copy) NSString *name;
+@property (nonatomic,assign) int age;
+
+-(void)func1;
+-(void)func2;
+
+//- (void)encodeWithCoder:(NSCoder *)encoder;
+//- (instancetype)initWithCoder:(NSCoder *)decoder;
 
 @end
